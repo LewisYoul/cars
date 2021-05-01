@@ -1,24 +1,18 @@
-# README
+# Garages & Cars
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is to complement a number of [blog posts](https://lewisyoul.github.io/) I am creating.
 
-Things you may want to cover:
+## Set Up
 
-* Ruby version
+In order to run this application follow these steps:
 
-* System dependencies
+```
+bundle install
+rails db:create db:migrate db:seed
+```
 
-* Configuration
+You should then have access to the required data via `rails c`
 
-* Database creation
+## Contact
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you are having issues setting up this application please do get in touch with me on [twitter](https://twitter.com/lewisyoul) and I would be happy to help!
