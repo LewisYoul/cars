@@ -10,41 +10,49 @@ garage_locations = ['Upper Street', 'Lower Street', 'Station Road', 'Church Hill
 
 garages = garage_locations.map { |location| Garage.create!(location: location) }
 
+car_colors = %w(red green blue pink brown black)
 cars = [
   {
     make: 'Ford',
     model: 'Mustang',
-    garage: garages.first
+    garage: garages.first,
+    color: car_colors.sample
   },
   {
     make: 'Honda',
     model: 'Jazz',
-    garage: garages.first
+    garage: garages.first,
+    color: car_colors.sample
   },
   {
     make: 'Subaru',
     model: 'Impreza',
-    garage: garages.first
+    garage: garages.first,
+    color: car_colors.sample
   },
   {
     make: 'Skoda',
     model: 'Citigo',
-    garage: garages.second
+    garage: garages.second,
+    color: car_colors.sample
   },
   {
     make: 'Skoda',
     model: 'Octavia',
-    garage: garages.second
+    garage: garages.second,
+    color: car_colors.sample
   },
   {
     make: 'Mazda',
     model: 'MX5',
-    garage: garages.third
+    garage: garages.third,
+    color: car_colors.sample
   },
   {
     make: 'Citroen',
     model: 'C3',
-    garage: garages.fourth
+    garage: garages.fourth,
+    color: car_colors.sample
   },
 ]
 
